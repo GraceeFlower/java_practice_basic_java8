@@ -35,4 +35,11 @@ public class Email {
     return Objects.hash(masterNumber, emailAddress);
   }
 
+  @Override
+  public String toString() {
+    return "Email{" +
+        "masterNumber='" + masterNumber + '\'' +
+        ", emailAddress='" + emailAddress + '\'' +
+        '}';
+  }
 }

@@ -37,5 +37,14 @@ public class Telephone {
   public int hashCode() {
     return Objects.hash(masterNumber, countryCode, telephoneNumber);
   }
+
+  @Override
+  public String toString() {
+    return "Telephone{" +
+        "masterNumber='" + masterNumber + '\'' +
+        ", countryCode='" + countryCode + '\'' +
+        ", telephoneNumber='" + telephoneNumber + '\'' +
+        '}';
+  }
 }
 

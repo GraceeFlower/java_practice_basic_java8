@@ -51,6 +51,15 @@ public class Address {
     return Objects.hash(masterNumber, country, city, street);
   }
 
+  @Override
+  public String toString() {
+    return "Address{" +
+        "masterNumber='" + masterNumber + '\'' +
+        ", country='" + country + '\'' +
+        ", city='" + city + '\'' +
+        ", street='" + street + '\'' +
+        '}';
+  }
 }
 
 
