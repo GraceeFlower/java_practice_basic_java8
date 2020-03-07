@@ -4,6 +4,7 @@ import entity.MasterNumber;
 import entity.Person;
 import entity.Telephone;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class PersonSet {
@@ -29,6 +30,7 @@ public class PersonSet {
     // TODO: group the data to Stream<Person>
     // Can use Collectors.groupingBy method
     // Can add helper method
+
    return null;
   }
 

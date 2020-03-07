@@ -25,7 +25,8 @@ public class Person {
 
   public Optional<SimpleAddress> getSimpleAddress() {
     //TODO: return Optional<SimpleAddress>
-    return null;
+    return Optional.ofNullable(this.address)
+        .map(addr -> new SimpleAddress(addr.getStreet(), addr.getCity()));
   }
 
   public Address getAddress() {
